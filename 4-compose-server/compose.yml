@@ -1,0 +1,9 @@
+include:
+  - app1/compose.yml
+  - app2/compose.yml
+  - nginx/compose.yml
+
+networks:
+  public_net:
+    name: public_net
+    driver: bridge
