@@ -22,3 +22,10 @@ services:
         max-file: "3"
     networks:
       - public_net
+
+# global compose file which is declaring this one
+# networks:
+#   public_net:
+#     name: public_net
+#     external: true
+      
