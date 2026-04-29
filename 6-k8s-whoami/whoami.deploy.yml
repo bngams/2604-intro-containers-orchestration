@@ -6,7 +6,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: whoami
+      app.kubernetes.io/name: whoami
   replicas: 3
   strategy:
     type: RollingUpdate # default value
